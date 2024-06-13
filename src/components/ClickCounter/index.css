@@ -1,0 +1,47 @@
+/* Center the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+/* Style for the h1 element */
+.container h1 {
+  font-size: 54px;
+  margin-bottom: 10px;
+}
+
+/* Style for the count in the h1 element */
+.count {
+  color: purple;
+  font-size: 54px;
+}
+
+/* Style for the paragraph element */
+.container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Style for the button */
+.container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+.button {
+  background-color: #0056b3;
+  color: white;
+  /* Darker blue */
+}
